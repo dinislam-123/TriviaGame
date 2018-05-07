@@ -1,0 +1,59 @@
+
+.container
+{
+    /* width: 560px;
+    height: 750px;
+    background-color:cyan;
+    
+    margin-left: 10px;
+    border-width: 5px; */
+}
+.center
+{
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    /* margin: 5px; */
+    padding: 20px;
+}
+
+#ptime
+{
+    height: 40px;
+
+}
+.div3
+{
+    width: 560px;
+    height:110px;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.div2
+{
+    width:560px;
+    height: 40px;
+    padding-left: 50px;
+    background-color: yellow;
+}
+
+#div1
+{
+    width:560px;
+    height:500px;
+    font-size: 20px;
+    background-color: yellow;
+}
+h
+{
+    font-size: 30px;
+}
+
+#result
+{
+    width:560px;
+    height: 200px;
+    background-color: yellow;
+    padding: 20px;
+}

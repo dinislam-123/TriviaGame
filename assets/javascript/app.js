@@ -46,19 +46,18 @@ $(document).ready(function()
     countDown(10);
     });
 
-
     var mbody = $('.center');
     var div = $('#div1');
 
     for(var i=0; i<objdetail.length; i++)
     {
 
-       var mno = $('<p>');
-            mno.text(objdetail[i].no);
+    //    var mno = $('<p>');
+    //         mno.text(objdetail[i].no);
 
         var mq = $('<p>');
             mq.text(objdetail[i].q);
-        div.append(mno,mq);
+        div.append(mq);
 
         // this code for radio button -1
 
@@ -118,6 +117,8 @@ $(document).ready(function()
     div.append(mdone);
     mbody.append(div);
 
+    // this for done button result---
+
     $('#done').on('click', function()
     {
         $('#div1').hide();
@@ -127,9 +128,11 @@ $(document).ready(function()
         document.getElementById("pr1").innerHTML = "Correct Answer : " + total;
         document.getElementById("pr2").innerHTML = "Incorrect Answer : " + (5-total);
         document.getElementById("ptime").innerHTML = "  ";
-
+        // window.close();
 
     })
+    // this is for input question and answer...
+
     var m = 0;
     $('input[type="radio"]').on('click',function()
     {

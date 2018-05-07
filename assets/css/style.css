@@ -24,6 +24,7 @@
 }
 .div3
 {
+    text-align: center;
     width: 560px;
     height:110px;
     padding: 20px;
@@ -32,6 +33,7 @@
 
 .div2
 {
+    text-align: center;
     width:560px;
     height: 40px;
     padding-left: 50px;
@@ -44,6 +46,8 @@
     height:500px;
     font-size: 20px;
     background-color: yellow;
+    padding-left:20px;
+    text-align: center;
 }
 h
 {
@@ -52,6 +56,7 @@ h
 
 #result
 {
+    text-align: center;
     width:560px;
     height: 200px;
     background-color: yellow;
